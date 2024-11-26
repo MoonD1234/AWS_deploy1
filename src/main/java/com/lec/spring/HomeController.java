@@ -16,7 +16,7 @@ public class HomeController {
         log.error("/aws/v1 호출 . info 로그 #########################"  );
         else if(num == 0)
         log.warn("/aws/v1 호출 . info 로그 #########################"  );
-        return "<h2>AWS 배포 v1</h2>";
+        return "<h2>AWS 배포 v1.1</h2>";
     }
 
 

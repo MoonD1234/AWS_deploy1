@@ -17,7 +17,7 @@ class HomeControllerTest {
     @Test
     void hellO(){
       ResponseEntity<String> response =  restTemplate.getForEntity("/aws/v1",String.class);
-       assertEquals("<h2>AWS 배포 v1</h2>", response.getBody());
+       assertEquals("<h2>AWS 배포 v1.1</h2>", response.getBody());
     }
 
 
